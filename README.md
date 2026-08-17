@@ -7,7 +7,7 @@
   <p>
     <a href="https://contextzero-blue.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
     <a href="https://leetcode.com/u/PHENOMINER/"><img src="https://img.shields.io/badge/LeetCode-PHENOMINER-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" /></a>
-    <a href="https://github.com/YOUR_GITHUB_USERNAME"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+    <a href="https://github.com/Phenominer"><img src="https://img.shields.io/badge/GitHub-Phenominer-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
   </p>
 
 </div>
@@ -197,9 +197,9 @@ I consistently practice core Computer Science topics and algorithmic problem sol
 <div align="center">
 
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/output/github-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/output/github-snake.svg">
-    <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/output/github-snake.svg" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Phenominer/Phenominer/output/github-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Phenominer/Phenominer/output/github-snake.svg">
+    <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/Phenominer/Phenominer/output/github-snake.svg" width="100%">
   </picture>
 
 </div>
@@ -209,10 +209,10 @@ I consistently practice core Computer Science topics and algorithmic problem sol
 ### 📊 GITHUB ANALYTICS
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=dark&hide_border=true&count_private=true" alt="Akshat Pandey's GitHub Stats" height="175" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=dark&hide_border=true" alt="GitHub Streak Stats" height="175" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Phenominer&show_icons=true&theme=dark&hide_border=true&count_private=true" alt="Akshat Pandey's GitHub Stats" height="175" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Phenominer&theme=dark&hide_border=true" alt="GitHub Streak Stats" height="175" />
   <br /><br />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=dark&hide_border=true&hide=html,css" alt="Top Languages" height="175" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Phenominer&layout=compact&theme=dark&hide_border=true&hide=html,css" alt="Top Languages" height="175" />
 </div>
 
 ---
@@ -221,8 +221,8 @@ I consistently practice core Computer Science topics and algorithmic problem sol
 
 <div align="center">
 
-  <a href="https://github.com/YOUR_GITHUB_USERNAME">
-    <img src="https://img.shields.io/badge/GitHub-YOUR__GITHUB__USERNAME-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  <a href="https://github.com/Phenominer">
+    <img src="https://img.shields.io/badge/GitHub-Phenominer-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
   <a href="YOUR_LINKEDIN_URL">
     <img src="https://img.shields.io/badge/LinkedIn-Akshat_Pandey-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
