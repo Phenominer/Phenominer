@@ -5,7 +5,6 @@
   <p><em>"Building real-world software systems, AI-powered applications and products that solve practical problems."</em></p>
 
   <p>
-    <a href="https://contextzero-blue.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
     <a href="https://leetcode.com/u/PHENOMINER/"><img src="https://img.shields.io/badge/LeetCode-PHENOMINER-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" /></a>
     <a href="https://github.com/Phenominer"><img src="https://img.shields.io/badge/GitHub-Phenominer-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
   </p>
@@ -229,9 +228,6 @@ I consistently practice core Computer Science topics and algorithmic problem sol
   </a>
   <a href="https://leetcode.com/u/PHENOMINER/">
     <img src="https://img.shields.io/badge/LeetCode-PHENOMINER-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
-  </a>
-  <a href="https://contextzero-blue.vercel.app/">
-    <img src="https://img.shields.io/badge/Portfolio-contextzero--blue-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
   </a>
   <a href="mailto:YOUR_EMAIL">
     <img src="https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
