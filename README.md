@@ -24,17 +24,17 @@
 ## 🧠 Engineering Profile
 
 ```text
-┌─────────────────────────────────────────────────────────────┐
-│  ROLE       →  B.Tech CSE Student                          │
-│  FOCUS      →  Backend • AI/ML • Computer Vision           │
-│  LANGUAGES  →  Python • Java • JavaScript • TypeScript     │
-│  BACKEND    →  Node.js • Express • FastAPI                 │
-│  DATA       →  PostgreSQL • MongoDB • Redis • Neo4j        │
-│  AI/ML      →  RAG • FAISS • PyTorch • Embeddings • PPO   │
-│  VISION     →  OpenCV • Face Analysis • OCR                │
-│  CLOUD      →  AWS • Docker • GitHub Actions               │
-│  MISSION    →  Build useful systems that work in practice  │
-└─────────────────────────────────────────────────────────────┘
+┌──────────────────────────────────────────────────────────────────┐
+│  ROLE       →  B.Tech CSE Student                               │
+│  FOCUS      →  Backend • AI/ML • Computer Vision                │
+│  LANGUAGES  →  Python • Java • JavaScript • TypeScript          │
+│  BACKEND    →  Node.js • Express • FastAPI • RQ Workers         │
+│  DATA       →  PostgreSQL • MongoDB • Redis/Valkey • Neo4j      │
+│  AI/ML      →  EasyOCR • MTCNN • FaceNet • RAG • FAISS • PPO   │
+│  VISION     →  OpenCV • ZXing • Face Recognition • ANPR        │
+│  CLOUD      →  DigitalOcean • Docker • GitHub Actions          │
+│  MISSION    →  Build systems that solve real-world problems     │
+└──────────────────────────────────────────────────────────────────┘
 ```
 
 > **Engineering mindset:** turn real-world requirements into maintainable, scalable and measurable software.
@@ -47,9 +47,10 @@ I am a Computer Science Engineering student at **GL Bajaj Institute of Technolog
 
 - 🎓 **Education:** B.Tech in Computer Science & Engineering
 - 🏗️ **Core Engineering:** Backend architecture, APIs, databases, real-time systems
-- 🤖 **AI/ML:** RAG pipelines, vector retrieval, embeddings, PyTorch and reinforcement learning
-- 👁️ **Computer Vision:** **OpenCV, face detection/analysis, OCR and video/image processing**
+- 🤖 **AI/ML:** EasyOCR (CRAFT + CRNN), MTCNN, FaceNet/InceptionResnetV1, RAG, FAISS, PyTorch, PPO
+- 👁️ **Computer Vision:** Face detection/recognition, ANPR, ZXing barcode/QR, OpenCV, video analytics
 - 🚀 **Startup:** Building **Vibeesta**, a college-focused social ecosystem
+- 🛡️ **Applied AI:** **IBVAP** — Intelligent Border Video Analytics Platform (edge-deployed AI surveillance)
 - 🧩 **Problem Solving:** Regular DSA and LeetCode practice with emphasis on complexity and implementation
 - ⚙️ **Philosophy:** Build first, benchmark, debug, improve.
 
@@ -73,6 +74,54 @@ A college-focused social ecosystem designed around communities, real-time intera
 **Stack**
 
 `Flutter` `Node.js` `PostgreSQL` `Socket.IO` `BullMQ` `Valkey/Redis` `AWS`
+
+**Repository:** 🔒 Private
+
+---
+
+## 🛡️ IBVAP — Intelligent Border Video Analytics Platform
+
+A software-defined, AI-powered border surveillance platform that extracts actionable intelligence from existing CCTV infrastructure — without expensive dedicated hardware.
+
+**Core AI capabilities**
+- 🧠 **Human & Vehicle Detection** — real-time tracking across camera feeds
+- 👤 **Face Detection & Recognition** — authorized person database with watchlist support
+- 🚗 **ANPR** — automatic license plate reading with whitelist / blacklist / watchlist management
+- 🚧 **Virtual Fence / Intrusion Detection** — configurable boundary-crossing alerts
+- 🌙 **Night-time Detection** — IR / low-light processing mode
+- 📊 **Suspicious Activity Detection** — behavioral pattern flags (loitering, climbing, etc.)
+- ⚡ **Real-time Alert Generation** — event logging and immediate notifications
+
+**Architecture**
+- **Edge Node** — each border region runs its own AI inference node (cameras → isolated VLAN → Edge Node)
+- **Central Platform** — thin coordinator; receives only metadata, alerts & health pings — no raw video streaming
+- **Offline Resilience** — detection, recording and event storage continue uninterrupted during connectivity loss
+- **On-Demand Footage** — full clips only transferred when explicitly authorized
+- **Prototype → Production** — same software stack scales from laptop + smartphone cameras to full IP CCTV deployment
+
+**Stack**
+
+`Python` `OpenCV` `PyTorch` `MTCNN` `ZXing` `FastAPI` `Edge Computing` `AI/ML` `Video Analytics`
+
+**Repository:** 🔒 Private
+
+---
+
+# 🤖 AI / ML
+
+## 📄 DocSphere — Intelligent Document Retrieval
+
+An AI-powered decision-support and retrieval system using semantic search and graph-based context.
+
+**Capabilities**
+- Semantic document chunking & dense vector retrieval
+- RAG pipelines with embedding-based search
+- Knowledge graph context (Neo4j) + candidate re-ranking
+- PPO-based retrieval optimization
+
+**Stack**
+
+`Python` `FAISS` `Sentence Transformers` `RAG` `FastAPI` `Neo4j` `PyTorch` `PPO`
 
 **Repository:** 🔒 Private
 
@@ -173,11 +222,11 @@ Sliding Window  Linked Lists       Bit Manipulation
 
 | Area | What I work with |
 |---|---|
-| 🏗️ **Backend Systems** | APIs, asynchronous jobs, caching, database design, scalable services |
-| 🤖 **AI/ML** | RAG, vector search, embeddings, PyTorch, RL/PPO |
-| 👁️ **Computer Vision** | OpenCV, faces, OCR, image/video processing |
-| ⚡ **Real-Time Systems** | WebSockets, Socket.IO, Pub/Sub, concurrency |
-| ☁️ **Infrastructure** | AWS, Docker, CI/CD, observability |
+| 🏗️ **Backend Systems** | APIs, async workers (RQ/BullMQ), caching, database design, scalable services |
+| 🤖 **AI/ML** | EasyOCR (CRAFT+CRNN), MTCNN, FaceNet, RAG, FAISS, PyTorch, PPO/RL |
+| 👁️ **Computer Vision** | OpenCV, face recognition, ANPR/ZXing, video analytics, edge AI inference |
+| ⚡ **Real-Time Systems** | WebSockets, Socket.IO, Pub/Sub, concurrency, event-driven architecture |
+| ☁️ **Infrastructure** | DigitalOcean, Docker, GitHub Actions CI/CD, blue-green deployments |
 | 🧩 **Algorithms** | DSA, complexity analysis, problem-solving patterns |
 
 ---
@@ -186,7 +235,9 @@ Sliding Window  Linked Lists       Bit Manipulation
 
 | Project | What it demonstrates | Stack |
 |:---|:---|:---|
-| **Vibeesta** | College social platform, real-time systems & scalable backend | `Flutter` `Node.js` `PostgreSQL` `Redis` |
+| **Vibeesta** | College social platform with biometric ID verification, real-time DMs & scalable backend | `Flutter` `Node.js` `PostgreSQL` `Redis` |
+| **IBVAP** | Edge AI border surveillance — ANPR, face recognition, virtual fence, behavioral analytics | `Python` `OpenCV` `PyTorch` `MTCNN` `ZXing` |
+| **DocSphere** | RAG pipeline, semantic vector retrieval & graph-based decision support | `Python` `FAISS` `Neo4j` `PyTorch` |
 | **Intelligent Model Router** | Dynamic LLM routing by capability, cost & latency | `Python` `FastAPI` `PyTorch` |
 | **Algorithms Core** | DSA implementations and problem solving | `Java` `Python` `C++` |
 
